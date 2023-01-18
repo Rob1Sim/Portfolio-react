@@ -15,6 +15,9 @@ function Navbar(){
                 <li><a href="#" className="nav-cv">CV</a></li>
 
             </ul>
+            <button className="nav_burger">
+                <span className="burger_bar"></span>
+            </button>
         </nav>
     )
 }
