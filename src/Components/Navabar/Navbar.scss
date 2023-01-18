@@ -1,0 +1,56 @@
+@import "/public/assets/Style/_variables.scss";
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navbar>a{
+    flex-grow: 5;
+}
+.Navbar>a>img{
+    width: 60px;
+    padding-left: 1vw;
+    padding-top: 1vh;
+}
+
+.nav-ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 2;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: $poppins-text;
+    color:$important-text-color;
+    transition: color 0.5s;
+}
+
+.nav-link:hover{
+    color: $a-color;
+}
+
+.nav-cv{
+    text-decoration: none;
+    font-family: $poppins-text;
+    color:$a-color;
+    border: 1px $a-color solid;
+    padding: 1vh 4vh ;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+.nav-cv:hover{
+    background-color: $a-color;
+    color: $background-color;
+}
+
+@media screen and (max-width:767px) {
+    .display-big-screen{
+        display: none;
+    }
+}
