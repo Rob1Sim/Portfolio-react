@@ -67,12 +67,17 @@
         justify-content: center;
         position: fixed;
         right: 0;
-        bottom: 0;
+        bottom: 100vh;
         height: 100vh;
         padding: 2rem;
         background-color: aqua;
+        visibility: hidden;
         left: 0;
         align-items: center;
+    }
+    .show-nav {
+        visibility: visible;
+        bottom: 0;
     }
     .nav-link{
         display: block;
