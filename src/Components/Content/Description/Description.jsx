@@ -5,7 +5,7 @@ function Description(){
     console.log(img)
     return(
         <div className="description-row">
-            <section className="description">
+            <section className="description" id='about'>
                 <h2>À propos</h2>
                 <p>Je m'appelle Robin Simonneau, j'ai commencé à programmer assez jeune à l'époque pour créer des mods pour Minecraft et depuis je ne me suis jamais arrêter.
                     J'ai pue essayer plein de languages de programmation et de technologies différentes comme : Java, Python, Javascript, et les fondamentaux du web !
