@@ -14,3 +14,15 @@
     background-color: $a-color;
     color: $background-color;
 }
+
+@mixin section-text{
+    display: flex;
+    flex-direction: column;
+    font-family: $poppins-text;
+    align-items: flex-start;
+}
+
+@mixin h1-title{
+    color: $a-color;
+    font-size: 3em;
+}

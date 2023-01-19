@@ -1,0 +1,67 @@
+@import "/public/assets/Style/_variables.scss";
+@import "/public/assets/Style/_mixins.scss";
+
+.description{
+    @include section-text;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 90vh;
+
+
+}
+
+.description>h2{
+    color: $a-color;
+    font-size: 2em;
+}
+
+.description>h2::after{
+    content: "";
+    width: 500px;
+    display: block;
+    position: relative;
+    top: -22px;
+    margin-left: 150px;
+    height: 1px;
+    background-color: #D0D2C0;
+
+}
+
+.description>p{
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.skills{
+    display: flex;
+}
+
+.skills>ul{
+    list-style-type: "→";
+}
+
+@media screen and (max-width:767px){
+    .description{
+       align-items: center;
+       width: 100%;
+       height: auto;
+    }
+    .description>p{
+        text-align: justify;    
+    }
+    .description>h2::after{
+        display: none;
+    
+    }
+}
+
+@media screen and (max-width:1023px){
+    .description{
+       align-items: center;
+       width: 100%;
+
+    }
+    .description>p{
+        text-align: justify;    
+    }
+}

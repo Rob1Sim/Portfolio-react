@@ -2,10 +2,8 @@
 @import "/public/assets/Style/_mixins.scss";
 
 .about{
-    display: flex;
-    flex-direction: column;
-    font-family: $poppins-text;
-    align-items: flex-start;
+    @include section-text;
+    height: 70vh;
 }
 
 .about>p{
@@ -16,8 +14,7 @@
 
 .about>h1{
     margin-bottom: 0;
-    color: $a-color;
-    font-size: 3em;
+    @include h1-title;
 }
 
 .about>h2{

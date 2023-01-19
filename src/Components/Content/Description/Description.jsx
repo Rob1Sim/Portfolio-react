@@ -1,0 +1,36 @@
+import './Description.scss';
+
+function Description(){
+    
+    return(
+        <section className="description">
+            <h2>À propos</h2>
+            <p>Je m'appelle Robin Simonneau, j'ai commencé à programmer assez jeune à l'époque pour créer des mods pour Minecraft et depuis je ne me suis jamais arrêter.
+                J'ai pue essayer plein de languages de programmation et de technologies différentes comme : Java, Python, Javascript, et les fondamentaux du web !
+            </p>
+            <p>
+                Aujourd'hui j'étudie le développement à web à l'Institut Universitaire de Technologie (IUT) de Reims, on y apprend des technologies comme PHP et Symfony, C# et .NET et pleins d'autre.
+                J'y apprend aussi les bases de la comptabilité, du droit de l'informatique, et de la gestion de projet !
+            </p>
+            <p>
+                Evidemment en grand curieux que je suis, je suis toujours à la recherche de nouvelles choses à apprendre, à l'heure ou j'écris ces lignes c'est <strong>React</strong>, ce site est d'ailleurs réalisé avec React .
+            </p>
+            <p>Voici une petite listes des technologies que j'utilise</p>
+            <div className="skills">
+                <ul>
+                    <li> PHP</li>
+                    <li> Symfony</li>
+                    <li> Javascript</li>
+                </ul>
+                <ul>
+                    <li> MySQL</li>
+                    <li> C#/.Net</li>
+                    <li> Et bien d'autre encore ...</li>
+                </ul>
+            </div>
+
+        </section>
+    )
+}
+
+export default Description;
