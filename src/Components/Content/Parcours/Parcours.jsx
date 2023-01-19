@@ -1,8 +1,14 @@
 import ParcoursBtn from "./Parcours-btn/ParcoursBtn";
+import ParcoursCase from "./Parcour-case/ParcoursCase";
 import "./Parcours.scss";
+import { useState } from "react";
 
 
 function Parcours(){
+
+    const [numberButton, setNumberButton] = useState(0);
+
+    
 
     return(
         <section id="parcours">
@@ -10,10 +16,11 @@ function Parcours(){
             <h2> Mon parcours</h2>
             <div className="button-list">
                 <ul>
-                    <ParcoursBtn title="Baccalauréat"/>
-                    <ParcoursBtn title="IUT informatique"/>
+                    <ParcoursBtn title="Baccalauréat" changeValue={()=>{setNumberButton(0)}} />
+                    <ParcoursBtn title="IUT informatique" changeValue={()=>{setNumberButton(1)}}/>
 
                 </ul>
+                <ParcoursCase tab={numberButton} />
             </div>
         </section>
     )

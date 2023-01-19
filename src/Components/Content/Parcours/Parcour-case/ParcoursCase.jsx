@@ -16,10 +16,7 @@ function ParcoursCase({tab}){
         skills = ["PHP/Symfony","Javascript/React", "C#/.Net"]
     }
 
-    let skillsLi = [];
-    skills.forEach(skill=>{
-        skillsLi.push("<li>"+skill+"</li>");
-    })
+    const skillsLi = skills.map((skill,i)=>(<li className={"skill-"+i}>{skill}</li>))
 
 
     return (
@@ -28,7 +25,7 @@ function ParcoursCase({tab}){
             <h4>{duree}</h4>
             <p>{description}</p>
             <ul>
-                {skills}
+                {skillsLi}
             </ul>
         </div>
     )

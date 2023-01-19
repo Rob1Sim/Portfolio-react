@@ -1,11 +1,11 @@
 import "./ParcoursBtn.scss";
 
 
-function ParcoursBtn({title}){
+function ParcoursBtn({title, changeValue}){
 
     return(
         <li className="list-parcours">
-            <button className="list-btn">{title}</button>
+            <button className="list-btn" onClick={changeValue}>{title}</button>
         </li>
     )
 }
