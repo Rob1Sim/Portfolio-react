@@ -1,7 +1,7 @@
 import './App.scss'
 import Navbar from '../Navabar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
-
+import Content from '../Content/Content';
 function App() {
   
 
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Sidebar />
+      <Content/>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 @import "/public/assets/Style/_variables.scss";
+@import "/public/assets/Style/_mixins.scss";
 
 .Navbar{
     display: flex;
@@ -36,18 +37,11 @@
 }
 
 .nav-cv{
-    text-decoration: none;
-    font-family: $poppins-text;
-    color:$a-color;
-    border: 1px $a-color solid;
-    padding: 1vh 4vh ;
-    border-radius: 10px;
-    transition: background-color 0.5s;
+    @include red-button;
 }
 
 .nav-cv:hover{
-    background-color: $a-color;
-    color: $background-color;
+    @include red-button-hover;
 }
 
 

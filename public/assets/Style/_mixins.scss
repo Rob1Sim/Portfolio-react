@@ -1,0 +1,16 @@
+@import "/public/assets/Style/_variables.scss";
+
+@mixin red-button{
+    text-decoration: none;
+    font-family: $poppins-text;
+    color:$a-color;
+    border: 1px $a-color solid;
+    padding: 1vh 4vh ;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+@mixin red-button-hover{
+    background-color: $a-color;
+    color: $background-color;
+}

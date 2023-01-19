@@ -1,0 +1,66 @@
+@import "/public/assets/Style/_variables.scss";
+@import "/public/assets/Style/_mixins.scss";
+
+.about{
+    display: flex;
+    flex-direction: column;
+    font-family: $poppins-text;
+    align-items: flex-start;
+}
+
+.about>p{
+    width: 60%;
+    margin-bottom: 6vh;
+
+}
+
+.about>h1{
+    margin-bottom: 0;
+    color: $a-color;
+    font-size: 3em;
+}
+
+.about>h2{
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    color: $important-text-color;
+    font-size: 2em;
+}
+
+.about>a{
+    @include red-button;
+}
+.about>a:hover{
+    @include red-button-hover;
+}
+
+
+@media screen and (max-width:767px) {
+
+    .about>h1{
+        font-size: 2em;
+    }
+    .about>p{
+        width: 90%;
+        text-align: center;
+
+    }
+    .about>h2{
+
+        font-size: 1.5em;
+    }
+    
+}
+
+@media screen and (max-width:1023px) {
+    .about{
+        align-items: center;
+    }
+
+    .about>p{
+        text-align: center;
+
+    }
+
+}
