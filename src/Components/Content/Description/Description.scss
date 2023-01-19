@@ -19,19 +19,14 @@
 }
 
 .description>h2{
-    color: $a-color;
-    font-size: 2em;
+    @include h2-title;
 }
 
 .description>h2::after{
-    content: "";
-    width: 500px;
-    display: block;
-    position: relative;
+    @include h2-after;
     top: -22px;
     margin-left: 150px;
-    height: 1px;
-    background-color: #D0D2C0;
+    width: 500px;
 
 }
 

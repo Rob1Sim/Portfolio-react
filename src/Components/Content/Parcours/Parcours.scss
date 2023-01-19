@@ -1,0 +1,21 @@
+@import "/public/assets/Style/_variables.scss";
+@import "/public/assets/Style/_mixins.scss";
+
+#parcours{
+    @include section-text;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 90vh;
+    display: flex;
+}
+
+#parcours>h2{
+    @include h2-title;
+    
+}
+#parcours>h2::after{
+    @include h2-after;
+    top: -22px;
+    margin-left: 240px;
+    width: 300px;
+}

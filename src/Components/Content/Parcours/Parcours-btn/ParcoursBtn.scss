@@ -1,0 +1,32 @@
+@import "/public/assets/Style/_variables.scss";
+@import "/public/assets/Style/_mixins.scss";
+
+
+.list-parcours{
+    display: flex;
+    list-style: none;
+    height: 5vh;
+    align-items: center;
+    padding-left: 10px;
+    border-left: #2B3467 3px solid;
+    transition: all 0.5s;
+}
+
+.list-parcours:hover{
+    background-color: #BAD7E9 ;
+    color: #EB455F;
+    
+    border-left: #EB455F 3px solid;
+
+    
+}
+
+.list-parcours:selected{
+}
+
+
+
+.list-btn{
+    all: unset;
+    cursor: pointer;
+}

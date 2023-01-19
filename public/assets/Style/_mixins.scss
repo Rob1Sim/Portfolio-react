@@ -26,3 +26,17 @@
     color: $a-color;
     font-size: 3em;
 }
+
+@mixin h2-title{
+    color: $a-color;
+    font-size: 2em;
+}
+
+@mixin h2-after{
+    content: "";
+    display: block;
+    position: relative;
+    
+    height: 1px;
+    background-color: #D0D2C0;
+}
