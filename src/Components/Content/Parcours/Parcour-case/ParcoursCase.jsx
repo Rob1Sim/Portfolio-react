@@ -1,3 +1,4 @@
+import "./ParcoursCase.scss";
 
 function ParcoursCase({tab}){
     let title;
