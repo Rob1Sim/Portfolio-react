@@ -4,3 +4,14 @@
 .parcours-case{
     width: 60%;
 }
+ul{
+    list-style-type: "→";
+
+}
+.parcours-case>h3{
+    color: $important-text-color;
+}
+.parcours-case>h4{
+    font-size: 0.8em;
+    color: $important-text-color;
+}

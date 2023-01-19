@@ -10,6 +10,8 @@
     padding-left: 10px;
     border-left: #2B3467 3px solid;
     transition: all 0.5s;
+    cursor: pointer;
+
 }
 
 .list-parcours:hover{
@@ -25,5 +27,4 @@
 
 .list-btn{
     all: unset;
-    cursor: pointer;
 }
