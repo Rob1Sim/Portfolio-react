@@ -70,7 +70,7 @@
         bottom: 100vh;
         height: 100vh;
         padding: 2rem;
-        background-color: aqua;
+        background-color: #2B3467;
         visibility: hidden;
         left: 0;
         align-items: center;
@@ -83,6 +83,7 @@
         display: block;
         padding: 1.5rem;
         font-size: 5vw;
+        color: #BAD7E9;
     }
 
     .nav_burger{
@@ -102,7 +103,8 @@
         height: 3px;
         position: relative;
         border-radius: 3px;
-        background: white;
+        background: #EB455F;
+        transition: all .5s ease-in-out;
     }
 
     .burger_bar::before,.burger_bar::after{
@@ -118,4 +120,18 @@
         transform: translateY(12px);
         
     }
+
+    .show-nav + .nav_burger>.burger_bar{
+        background: transparent;
+        width: 0;
+    }
+
+    .show-nav + .nav_burger>.burger_bar::before{
+        transform: rotate(45deg);
+    }
+    .show-nav + .nav_burger>.burger_bar::after{
+        transform: rotate(-45deg);
+    }
+
+    
 }
