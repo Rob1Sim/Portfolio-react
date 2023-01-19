@@ -10,6 +10,14 @@
 
 }
 
+.description-row{
+    flex-wrap: wrap;
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    align-items: flex-start;
+}
+
 .description>h2{
     color: $a-color;
     font-size: 2em;
@@ -40,11 +48,25 @@
     list-style-type: "→";
 }
 
+.image-of-me{
+    width: 20vw;
+    margin-top: 12vh;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.image-of-me:hover{
+    box-shadow: 20px 15px #2B3467;
+}
+
 @media screen and (max-width:767px){
     .description{
        align-items: center;
        width: 100%;
        height: auto;
+    }
+    .description-row{
+        width: 100%;
     }
     .description>p{
         text-align: justify;    
@@ -59,9 +81,14 @@
     .description{
        align-items: center;
        width: 100%;
+       height: auto;
 
     }
     .description>p{
         text-align: justify;    
+    }
+
+    .image-of-me{
+        display: none;
     }
 }
