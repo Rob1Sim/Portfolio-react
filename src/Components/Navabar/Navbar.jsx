@@ -1,4 +1,5 @@
 import logo from "/assets/images/Logologo.png"
+import cv from "/files/Robin-simonneau-CV.pdf"
 import "./Navbar.scss"
 import { useState } from "react";
 
@@ -20,7 +21,7 @@ function Navbar(){
                 <li><a href="#parcours" className="nav-link" onClick={handleShowLinks}>Mon parcours</a></li>
                 <li><a href="#projects" className="nav-link" onClick={handleShowLinks}>Mes projets</a></li>
                 <li><a href="#contact" className="nav-link" onClick={handleShowLinks}>Contact</a></li>
-                <li><a href="#" className="nav-cv" onClick={handleShowLinks}>CV</a></li>
+                <li><a href={cv} className="nav-cv" onClick={handleShowLinks} download>CV</a></li>
 
             </ul>
             <button className="nav_burger" onClick={handleShowLinks} aria-label="Bouton ouvre la barre de navigation">
