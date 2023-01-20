@@ -17,7 +17,7 @@ function Parcours(){
             <div className="button-list">
                 <ul className="button-list-ul">
                     <ParcoursBtn title="Baccalauréat" changeValue={()=>{setNumberButton(0)}} />
-                    <ParcoursBtn title="IUT informatique" changeValue={()=>{setNumberButton(1)}}/>
+                    <ParcoursBtn title="DUT informatique" changeValue={()=>{setNumberButton(1)}}/>
 
                 </ul>
                 <ParcoursCase tab={numberButton} />
