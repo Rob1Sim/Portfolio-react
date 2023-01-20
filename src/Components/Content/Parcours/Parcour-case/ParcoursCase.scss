@@ -15,3 +15,13 @@ ul{
     font-size: 0.8em;
     color: $important-text-color;
 }
+
+@media screen and (max-width:767px){
+    .parcours-case{
+        width:100%;
+    }
+    .parcours-case>h3,.parcours-case>h4,.parcours-case>p{
+        text-align:center;
+    }
+    
+}

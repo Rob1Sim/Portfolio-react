@@ -15,7 +15,7 @@ function Parcours(){
 
             <h2> Mon parcours</h2>
             <div className="button-list">
-                <ul>
+                <ul className="button-list-ul">
                     <ParcoursBtn title="Baccalauréat" changeValue={()=>{setNumberButton(0)}} />
                     <ParcoursBtn title="IUT informatique" changeValue={()=>{setNumberButton(1)}}/>
 
