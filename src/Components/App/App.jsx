@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Sidebar />
+      <Sidebar isFooter={false}/>
       <Content/>
     </div>
   )

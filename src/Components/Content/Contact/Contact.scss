@@ -1,0 +1,75 @@
+@import "/public/assets/Style/_variables.scss";
+@import "/public/assets/Style/_mixins.scss";
+
+#contact{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30vh;
+}
+
+#contact>*{
+    @include section-text;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6vh
+}
+
+#contact>*>h1{
+    @include h1-title;
+    text-align: center;
+
+}
+
+#contact>.contact-up>p{
+    text-align: center;
+}
+
+#contact>.contact-up>a{
+    @include red-button;
+}
+
+#contact>.contact-up>a:hover{
+    @include red-button-hover;
+}
+
+.credits{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.credits>a{
+    color: $important-text-color ;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+
+.credits>a:hover{
+    color: $a-color ;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-footer{
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+
+    .logo-footer{
+        display: flex;
+    }
+    #contact{
+        width: 98%;
+    }
+}

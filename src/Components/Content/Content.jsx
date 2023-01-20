@@ -3,6 +3,7 @@ import Description from "./Description/Description";
 import "./Content.scss"
 import Parcours from "./Parcours/Parcours";
 import Project from "./Projects/Project";
+import Contact from "./Contact/Contact";
 
 
 function Content(){
@@ -13,6 +14,7 @@ function Content(){
             <Description/>
             <Parcours/>
             <Project/>
+            <Contact/>
         </main>
     )
 }

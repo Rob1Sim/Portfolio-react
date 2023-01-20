@@ -10,7 +10,7 @@
     z-index: 10;
 }
 
-.sidbar_Ul{
+.sidbar_Ul,.footer_Ul{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,6 +43,18 @@
     .sidbar_Ul{
         display: none;
     }
+    .footer_Ul{
+        display: inherit;
+        flex-direction: row;
+    }
+    .sidebar{
+        position: inherit;
+        width: auto;
+    }
+    .footer_Ul:last-child::after{
+        display: none;
+    }
+
 //TODO Ajouter le footer
 
 }
