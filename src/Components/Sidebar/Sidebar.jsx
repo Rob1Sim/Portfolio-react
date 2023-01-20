@@ -18,13 +18,13 @@ function Sidebar({ isFooter }){
         <div className={classOfSideBar}>
             <ul className={classOfSideBarUl}>
                 <li>
-                    <a href="https://www.linkedin.com/in/robin-simonneau-581563223/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" color="#2B3467" /></a>
+                    <a href="https://www.linkedin.com/in/robin-simonneau-581563223/" target="_blank" aria-label="Lien vers linkdin"><FontAwesomeIcon icon={faLinkedin} size="2x" color="#2B3467" /></a>
                 </li>
                 <li>
-                    <a href="https://github.com/Rob1Sim" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" color="#2B3467"/></a>
+                    <a href="https://github.com/Rob1Sim" target="_blank" aria-label="Lien vers GitHub"><FontAwesomeIcon icon={faGithub} size="2x" color="#2B3467" /></a>
                 </li>
                 <li>
-                    <a href="mailto:robin.simonneau@robin-sim.fr"><FontAwesomeIcon icon={faEnvelope} size="2x" color="#2B3467" /></a>
+                    <a href="mailto:robin.simonneau@robin-sim.fr" aria-label="Lien vers la plateforme d'envoie d'email"><FontAwesomeIcon icon={faEnvelope} size="2x" color="#2B3467" /></a>
                 </li>
 
             </ul>

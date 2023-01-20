@@ -11,7 +11,7 @@ function ProjectTile({title,description,skills,link}){
         <li className="projects-tile">
             <header>
                 <h3>{title}</h3>
-                <a href={link}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                <a href={link} aria-label="Lien vers un projets GitHub"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
             </header>
             <p>{description}</p>
             <ul>
