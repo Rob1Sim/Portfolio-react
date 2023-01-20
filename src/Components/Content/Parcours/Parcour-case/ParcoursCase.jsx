@@ -17,7 +17,7 @@ function ParcoursCase({tab}){
         skills = ["PHP/Symfony","Javascript/React", "C#/.Net"]
     }
 
-    const skillsLi = skills.map((skill,i)=>(<li className={"skill-"+i}>{skill}</li>))
+    const skillsLi = skills.map((skill,i)=>(<li key={i} className={"skill-"+i}>{skill}</li>))
 
 
     return (

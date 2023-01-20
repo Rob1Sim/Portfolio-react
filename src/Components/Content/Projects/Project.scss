@@ -1,0 +1,38 @@
+@import "/public/assets/Style/_variables.scss";
+@import "/public/assets/Style/_mixins.scss";
+
+
+.projects{
+    @include section-text;
+    flex-wrap: wrap;
+    width: 60%;
+
+    display: flex;
+}
+.projects>h2{
+    @include h2-title;
+
+}
+
+.projects>h2::after{
+    @include h2-after;
+    top: -22px;
+    margin-left: 240px;
+    width: 300px;
+}
+
+.projects>ul{
+    display:flex;
+    gap:3vw;
+    padding:0;
+    flex-wrap:wrap;
+}
+
+@media screen and (max-width:767px){
+    .projects>h2::after{
+        width: 0;
+    }
+    .projects>ul{
+        width:100%;
+    }
+}

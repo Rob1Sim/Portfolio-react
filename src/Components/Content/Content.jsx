@@ -2,6 +2,7 @@ import About from "./About/About";
 import Description from "./Description/Description";
 import "./Content.scss"
 import Parcours from "./Parcours/Parcours";
+import Project from "./Projects/Project";
 
 
 function Content(){
@@ -11,6 +12,7 @@ function Content(){
             <About/>
             <Description/>
             <Parcours/>
+            <Project/>
         </main>
     )
 }

@@ -1,0 +1,73 @@
+@import "/public/assets/Style/_variables.scss";
+@import "/public/assets/Style/_mixins.scss";
+
+
+.projects-tile{
+    margin-left:0;
+    max-width: 30vh;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    padding:0 1vh 2vh 1vh;
+    text-align:center;
+    background-color: #fc9c76;
+    border-radius: 15px;
+    transition:box-shadow 0.5s;
+    
+}
+
+.projects-tile:hover{
+    box-shadow: 15px 10px #b07153;
+}
+
+.projects-tile>header,.projects-tile>ul{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:2vw;
+    padding:0;
+}
+
+.projects-tile>ul{
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+
+}
+.projects-tile>header{
+    margin-top:3vh;
+    display:flex;
+    
+
+}
+.projects-tile>header>h3{
+    color:$a-color;
+    margin:0;
+    text-align:center;
+    
+
+}
+.projects-tile>p{
+ color:white;   
+}
+.projects-tile>header>a>svg{
+    color:$important-text-color;
+    transition: color 0.5s;
+}
+
+.projects-tile>header>a>svg:hover{
+    color:$a-color;   
+   }
+
+.projects-tile>ul>li{
+    font-size:0.7em;
+    color:#2B3467;
+}
+
+@media screen and (max-width:767px){
+    .projects-tile{
+        width: 100%;
+        max-width: 100%;
+
+    }
+}
