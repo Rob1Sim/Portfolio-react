@@ -8,7 +8,7 @@ function Description(){
             <section className="description" id='about'>
                 <h2>À propos</h2>
                 <p>Je m'appelle Robin Simonneau, j'ai commencé à programmer assez jeune à l'époque pour créer des mods pour Minecraft et depuis je ne me suis jamais arrêté.
-                    J'ai pu essayer plein de languages de programmation et de technologies différentes comme : Java, Python, Javascript, et les fondamentaux du web !
+                    J'ai pu essayer plein de langages de programmation et de technologies différentes comme : Java, Python, Javascript, et les fondamentaux du web !
                 </p>
                 <p>
                     Aujourd'hui j'étudie le développement à web à l'Institut Universitaire de Technologie (IUT) de Reims, on y apprend des technologies comme PHP et Symfony, C# et .NET et pleins d'autres.
