@@ -2,7 +2,6 @@ import './Description.scss';
 import img from '/assets/images/moi.jpeg';
 
 function Description(){
-    console.log(img)
     return(
         <div className="description-row">
             <section className="description" id='about'>

@@ -7,7 +7,7 @@ import Contact from "./Contact/Contact";
 
 
 function Content(){
-
+   
     return(
         <main className="content">
             <About/>
