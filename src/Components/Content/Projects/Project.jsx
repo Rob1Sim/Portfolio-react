@@ -10,13 +10,16 @@ function Project(){
             <ul>
             <ProjectTile title="Kanapp" 
                 description="Kanapp est une application permettant de stocker et consulter des Kanji (Caractère japonais). "
-                 skills={["Angular","TypeScript","Bootstrap"]} link="https://kanapp.robin-sim.fr" target="_blank" />
+                skills={["Angular","TypeScript","Bootstrap"]} link="https://kanapp.robin-sim.fr" target="_blank" />
             <ProjectTile title="Memorize" 
                 description="Une application mobile de flashcard permettant de mieux mémoriser, basée sur un algorithme de répétition espacée. "
-                 skills={["Swift","SwiftUI"]} link="https://github.com/Rob1Sim/Memorize" />    
+                skills={["Swift","SwiftUI"]} link="https://github.com/Rob1Sim/Memorize" />
             <ProjectTile title="Age Of Champagne" 
                 description="Extension web d'un jeu de société de gestion de parcelle de production de champagne."
-                 skills={["PHP","MySQL","Symfony"]} link="https://github.com/Rob1Sim/AgeOfChampagne" />    
+                skills={["PHP","MySQL","Symfony","React","Docker"]} link="https://github.com/Rob1Sim/AgeOfChampagne" />
+            <ProjectTile title="Wordpress Web Scrapper"
+                description="Tools de scrapping de pages de sites Wordpress, réalisé dans le cadre d'un stage."
+                skills={["Python","Flask","Docker"]} link="https://github.com/Rob1Sim/WordrpessPageScrapper" />
             </ul>
         </section>
     )

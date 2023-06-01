@@ -10,8 +10,9 @@ function Description(){
                     J'ai pu essayer plein de langages de programmation et de technologies différentes comme : Java, Python, Javascript, et les fondamentaux du web !
                 </p>
                 <p>
-                    Aujourd'hui j'étudie le développement à web à l'Institut Universitaire de Technologie (IUT) de Reims, on y apprend des technologies comme PHP et Symfony, C# et .NET et pleins d'autres.
-                    J'y apprends aussi les bases de la comptabilité, du droit de l'informatique, et de la gestion de projet !
+                    Après avoir étudié le développement web à l'Institut Universitaire de Technologie (IUT) de Reims, ou j'y es apris des technologies comme PHP et Symfony, C# et .NET et pleins d'autres.
+                    J'y est aussi appris les bases de la comptabilité, du droit de l'informatique, et de la gestion de projet !
+                    Je suis maintenant en formation pour devenir ingénieur informatique en alternance à CY Tech à Cegy.
                 </p>
                 <p>
                 Évidemment en grand curieux que je suis, je suis toujours à la recherche de nouvelles choses à apprendre, à l'heure ou j'écris ces lignes c'est <strong>React</strong>, ce site est d'ailleurs réalisé avec React .
@@ -22,10 +23,12 @@ function Description(){
                         <li> PHP</li>
                         <li> Symfony</li>
                         <li> Javascript</li>
+                        <li> Python</li>
                     </ul>
                     <ul>
                         <li> MySQL</li>
                         <li> C#/.Net</li>
+                        <li> Docker</li>
                         <li> Et bien d'autre encore ...</li>
                     </ul>
                 </div>
