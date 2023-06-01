@@ -27,7 +27,7 @@ Pour installer les dépendences
 Pour lancer le serveur 
 
 ```bash
-  npm run start
+  npm run dev
 ```
 
 
