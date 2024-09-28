@@ -1,25 +1,30 @@
 import "./Project.scss"
 
 import  ProjectTile from "./Project-Tile/ProjectTile";
+import {useTranslation} from "react-i18next";
 
 function Project(){
+    const { t } = useTranslation();
 
     return(
         <section id="projects" className="projects">
-            <h2> Mes projets </h2>
+            <h2> {t("projects")} </h2>
             <ul>
             <ProjectTile title="Kanapp" 
-                description="Kanapp est une application permettant de stocker et consulter des Kanji (Caractère japonais). "
+                description={t("kanapp")}
                 skills={["Angular","TypeScript","Bootstrap"]} link="https://kanapp.robin-sim.fr" target="_blank" />
             <ProjectTile title="Memorize" 
-                description="Une application mobile de flashcard permettant de mieux mémoriser, basée sur un algorithme de répétition espacée. "
+                description={t("memorize")}
                 skills={["Swift","SwiftUI"]} link="https://github.com/Rob1Sim/Memorize" />
             <ProjectTile title="Age Of Champagne" 
-                description="Extension web d'un jeu de société de gestion de parcelle de production de champagne."
+                description={t("aoc")}
                 skills={["PHP","MySQL","Symfony","React","Docker"]} link="https://github.com/Rob1Sim/AgeOfChampagne" />
             <ProjectTile title="Wordpress Web Scrapper"
-                description="Tools de scrapping de pages de sites Wordpress, réalisé dans le cadre d'un stage."
+                description={t("wws")}
                 skills={["Python","Flask","Docker"]} link="https://github.com/Rob1Sim/WordrpessPageScrapper" />
+            <ProjectTile title="Not The Legend of Zelda"
+                 description={t("zelda")}
+                  skills={["Java","JavaFx","Maven"]} link="https://github.com/Rob1Sim/NotTheLegendOfZelda2.0" />
             </ul>
         </section>
     )

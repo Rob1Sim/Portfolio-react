@@ -1,17 +1,20 @@
 import './Contact.scss';
 import Sidebar from '../../Sidebar/Sidebar';
+import {useTranslation} from "react-i18next";
 
 function Contact(){
+    const { t } = useTranslation();
+
     return(
         <section id="contact">
                 <div className="contact-up">
-                <h1>Contactez-moi !</h1>
-                <p>Un projet ? une offre ? Je suis toujours ouvert à de nouvelles opportunités, n'hésitez pas ma boîte mail est toujours ouverte !</p>
-                <a href='mailto:robin.simonneau@robin-sim.fr'>Envoyez-moi un email</a>
+                <h1>{t('contact')}</h1>
+                <p>{t('contact-desc')}</p>
+                <a href='https://www.linkedin.com/in/robin-simonneau-581563223/'>{t('contact-btn')}</a>
             </div>
             <div className="footer">
                 <p className='credits'>
-                    Design par <a href='https://github.com/bchiang7'>Brittany Chiang</a> et Développé par <a href='https://github.com/Rob1Sim'>Robin Simonneau</a>
+                    Design by <a href='https://github.com/bchiang7'>Brittany Chiang</a> et Developed by <a href='https://github.com/Rob1Sim'>Robin Simonneau</a>
                 </p>
                 <div className="logo-footer">
                     <Sidebar isFooter={true}/>

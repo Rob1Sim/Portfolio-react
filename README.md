@@ -1,8 +1,7 @@
 
 # Portfolio
 
-Un nouveau portfolio réalisé à l'aide React, 
-
+Portfolio made with React
 
 ## Installation local
 
@@ -17,8 +16,7 @@ Clone the project
   cd portfolio
 ```
 
-Pour installer les dépendences
-
+Install dependences:
 ```bash
   npm install
 ```

@@ -1,13 +1,16 @@
 import "./About.scss";
+import { useTranslation } from 'react-i18next';
 
 function About(){
+    const { t } = useTranslation();
+
 
     return(
         <article className="about">
             <h1>Robin Simonneau</h1>
-            <h2>Ingénieur en devenir</h2>
-            <p>Actuellement étudiant en informatique à CY Tech, en formation d'ingénieur informatique en alternance.</p>
-            <a href="#projects">Découvrir ce que je fais</a>
+            <h2>{t('title')}</h2>
+            <p>{t('description')}</p>
+            <a href="#projects">{t('desc-btn')}</a>
         </article>
     )
 }
